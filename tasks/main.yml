@@ -1,16 +1,16 @@
 ---
 - name: Install PHPCS.
-  become: yes
+  become: true
   get_url:
     url: https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
     dest: /usr/local/bin/phpcs
     mode: 0755
-    force: yes
+    force: true
 
 - name: Install PHPCBF.
-  become: yes
+  become: true
   get_url:
     url: https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar
     dest: /usr/local/bin/phpcbf
     mode: 0755
-    force: yes
+    force: true
