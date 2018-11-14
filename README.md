@@ -1,5 +1,6 @@
 PHP Code Sniffer tools Ansible role
 =========
+[![Build Status](https://travis-ci.com/devsoul/ansible-role-php-code-sniffer.svg?branch=master)](https://travis-ci.com/devsoul/ansible-role-php-code-sniffer)
 
 If you are a PHP developer and you use PHP Code Sniffer.
 
